@@ -1,7 +1,7 @@
   {
-    "name": "Getting Started Example",
+    "name": "Url blocking",
     "version": "1.0",
-    "description": "Build an Extension!",
+    "description": "My own url blocker",
     "background": {
       "scripts": ["background.js"],
       "persistent": true

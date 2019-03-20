@@ -14,5 +14,6 @@ chrome.webRequest.onBeforeRequest.addListener(
              '*://cbcnews.ca/*',
              '*://*.dawn.com/*',
              '*://news.google.com/*',
+             '*://*.cnn.com/*',
         ]},
     ["blocking"]);
