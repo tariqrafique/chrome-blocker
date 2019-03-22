@@ -18,5 +18,8 @@ chrome.webRequest.onBeforeRequest.addListener(
              '*://*.lifehacker.com/*',
              '*://*.engadget.com/*',
              '*://*.reddit.com/*',
+             '*://*.gizmodo.com/*',
+             '*://*.nytimes.com/*',
+             '*://*.bing.com/news/*'
         ]},
     ["blocking"]);
