@@ -20,6 +20,7 @@ chrome.webRequest.onBeforeRequest.addListener(
              '*://*.reddit.com/*',
              '*://*.gizmodo.com/*',
              '*://*.nytimes.com/*',
-             '*://*.bing.com/news/*'
+             '*://*.bing.com/news/*',
+             '*://*.seattletimes.com/*',
         ]},
     ["blocking"]);
