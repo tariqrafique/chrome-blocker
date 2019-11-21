@@ -22,5 +22,9 @@ chrome.webRequest.onBeforeRequest.addListener(
              '*://*.nytimes.com/*',
              '*://*.bing.com/news/*',
              '*://*.seattletimes.com/*',
+             '*://aloha--c.documentforce.com/*',
+             '*://*.bbc.com/*',
+             '*://*.bbc.co.uk/*',
+             '*://*.bbcnews.com/*'
         ]},
     ["blocking"]);
