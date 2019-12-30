@@ -1,8 +1,9 @@
 console.log(">>> Hey");
 
+const cancelobj = { cancel: true };
 chrome.webRequest.onBeforeRequest.addListener(
     function(details) {
-      return {cancel: true};
+      return cancelobj;
     },
     {urls: [ '*://*.twitter.com/*',
              '*://*.facebook.com/*',
