@@ -29,7 +29,8 @@ chrome.webRequest.onBeforeRequest.addListener(
         // '*://aloha--c.documentforce.com/*', // aloha banner
         '*://*.bbc.com/*',
         '*://*.bbc.co.uk/*',
-        '*://*.bbcnews.com/*'
+        '*://*.bbcnews.com/*',
+        '*://*.cnbc.com/*'
     ]
   },
   ["blocking"]);
